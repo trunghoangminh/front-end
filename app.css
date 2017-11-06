@@ -1,0 +1,83 @@
+body {
+    font-size: 15px;
+    font-family: sans-serif;
+    color: #000000;
+}
+
+.header {
+    width: 100%;
+    height: 75px;
+    line-height: 60px;
+    background-color: #D8D8D8;
+}
+
+.nav {
+    background-color: #f1f1f1;
+    height: 60px;
+    line-height: 60px;
+    width: 100%;
+    text-align: center;
+}
+
+.nav .item-left {
+    float: left;
+    width: 8%;
+}
+
+.nav .item-left a {
+    text-decoration: none;
+    color: #000000;
+ }
+
+.nav .item-left .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.nav .item-left .dropdown-content a {
+    text-decoration: none;
+    display: block;
+    color: #000000;
+    padding: 0px 16px;
+    text-align: left;
+}
+
+.nav .item-left:hover,
+.item-left a:hover,
+.item-left .dropdown-content {
+    background-color: #949494;
+    color: white;
+}
+
+.nav .item-left:hover .dropdown-content {
+    display: block;
+}
+
+.nav .item-right {
+    float: right;
+    width: 8%;
+}
+
+.nav .item-right a {
+    text-decoration: none;
+    color: #000000;
+    display: block;
+}
+
+.nav .item-right a:hover {
+    background-color: #949494;
+    color: white;
+}
+
+
+.nav .item-right .search-icon {
+    height: 100%;
+    float: left;
+}
+
+.nav .item-right .search-icon img {
+    vertical-align: middle;
+}
